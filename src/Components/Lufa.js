@@ -36,7 +36,7 @@ export default function Api() {
       <input onChange={e => setBusca(e.target.value)} />
       </S.DivInp>
       <S.Div>
-      {Filtradas.splice(0,9).map((item) => (
+      {Filtradas.splice(0,3).map((item) => (
         <S.Personagens>        
          <S.Figure>
             <S.Img src={item.image} alt={item.name}/>
